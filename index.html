@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="espacinnecessary"></div>
+    <header>
+        <pre><h1 id="logo">Etec</h1><h3>Darcy Pereira de Moraes</h3></pre>
+        <div id="centralizar"><span class="sobre"><a href="">Minhas Viagens</a></span><span class="sobre"><a href="">Sobre nós</a></span><span class="sobre"><a href="">Central de Ajuda</a></span></div>
+        <div id="centralizar2"><span class="login">Faça login</span><span class="cadastro">Cadastre-se Já!</span></div>
+    </header>
+    <section id="imagem">
+        <h5>10 MELHORES PAÍSES PARA VIAJAR</h5>
+        <h1>Deixe sua viagem ÚNICA</h1>
+        <img src="assets/Imgs/formacao_ferias-das-pessoas.jpg" alt="" class="imagens"><img src="" alt="" class="imagens"><img src="" alt="" class="imagens">
+    </section>
+    <section id="conteudo">
+        <div id="pesquisa">
+                <input type="text" name="searchbar" placeholder="Pesquisar"  class="caixadetexto" onkeyup="search()" id="caixadetexto">
+                <input type="button" value="Pesquisar" class="botao">
+        </div>
+        <nav>
+            <h3>Filtrar por:</h3>
+            <hr>
+            <h4>Estrela</h4>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="5star" class="checkbox">
+            <label for="5star">5 estrelas</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="4star" class="checkbox">
+            <label for="4star">4 estrelas</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="3star" class="checkbox">
+            <label for="3star">3 estrelas</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="2star"  class="checkbox">
+            <label for="2star">2 estrelas</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="1star" class="checkbox">
+            <label for="1star">1 estrelas</label>
+            </div>
+            <hr>
+            <h4>Review score</h4>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="good" class="checkbox">
+            <label for="good">Good: 7+</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="luxury" class="checkbox">
+            <label for="luxury">Luxury: 10+</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="verygood" class="checkbox">
+            <label for="verygood">Verygood: 8+</label>
+            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="medium" class="checkbox">
+            <label for="medium">Medium: 6+</label>
+            </div>
+    
+        </nav>    
+        <ul class="paises">
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Suiça.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Suiça</h3> <p class="sobrepais">Os famosos vales verdes, picos cobertos de neve e resorts de esqui são ótimos atrativos para a bela Suíça, mas estão longe de ser tudo que o país oferece. Com característica progressista, referência no cenário artístico e arquitetônico, Zurique é um excelente lugar para ser explorado e ganhar mais crédito, segundo os avaliadores. Suas ofertas de esportes aventura também se destacam no décimo colocado da lista.</p> <p class="preco">R$ 4.132,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Noruega.jpeg" alt=""></div><div class="conteudoPais"><h3 class="elements">Noruega</h3> <p class="sobrepais">Para além da porta de entrada da capital Oslo, a Noruega oferece muitos encantos a quem estiver disposto a descobri-la! Com a segunda costa mais longa do mundo, sua cultura escandinava e hotéis excelentes, o país tem tudo para tornar sua viagem inesquecível. Além, claro, de permitir observar a Aurora Boreal em alguns de seus destinos.</p> <p class="preco">R$ 5.602,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Israel.jpeg" alt=""></div><div class="conteudoPais"><h3 class="elements">Israel</h3> <p class="sobrepais">Israel foi um dos selecionados para o top 10 da lista da revista, pois foi escolhido pelos leitores antes da guerra que ocorre no país. Realmente, o destino é incrível, diverso, compacto e completo ao mesmo tempo, mas, agora, tudo está muito diferente e não está sendo recomendado para o turismo, pela segurança dos viajantes. Portanto, o mencionamos neste post apenas para o ranking não ficar incompleto.</p> <p class="preco">R$ 7.300,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Portugal.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Portugal</h3> <p class="sobrepais">O sétimo lugar do prêmio tem o coração dos turistas brasileiros há muito tempo. Portugal oferece de uma só vez seus azulejos azuis e brancos, seu incrível pastel de nata, músicas ao vivo pelas ruas, excelentes vinhos, o frescor do seu porto e arquitetura histórica ímpar. Lisboa e Porto são apenas dois lugares dentre tantos que precisam ser descobertos nesta Península Ibérica.</p> <p class="preco">R$ 2.258,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Espanha.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Espanha</h3> <p class="sobrepais">Clima festivo, flamenco e muitos tapas para conquistar seu paladar, a Espanha reúne sua energia única às paisagens encantadoras. Amantes da gastronomia ainda podem aproveitar seus restaurantes com estrelas Michelin. De destinos a beira-mar ou históricos, opções para explorar não faltam.</p> <p class="preco">R$ 3.500,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/NovaZelandia.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Nova Zelândia</h3> <p class="sobrepais">País famoso entre os fãs do filme O Senhor dos Anéis, a Nova Zelândia ultrapassa as expectativas e tem tudo para surpreender. Sua beleza única é composta por montanhas, lagos, fiordes e florestas que tornam as paisagens impecáveis.</p> <p class="preco">R$ 12.000,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Irlanda.webp" alt=""></div><div class="conteudoPais"><h3 class="elements">Irlanda</h3> <p class="sobrepais">Considerada como aconchegante e confortável, a Irlanda encanta por seus prédios históricos, cultura tradicional e castelos grandiosos. Além disso, também tem se sobressaído por seus centros tecnológicos, como polos inovadores na Europa. Com muitos hotéis charmosos, o lugar é uma excelente pedida para muitos viajantes.</p> <p class="preco"> R$ 3.420,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Grécia.jpeg" alt=""></div><div class="conteudoPais"><h3 class="elements">Grécia</h3> <p class="sobrepais">As águas cristalinas, sua história misturada com a própria mitologia e suas ilhas cativantes deixaram a Grécia no top 3 do ranking, segundo os leitores da revista. Muito procurado pelos turistas, o país oferta uma rede hoteleira completa em diferentes cidades.</p> <p class="preco"> R$ 4.000,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Itália.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Itália</h3> <p class="sobrepais">A Itália nunca decepciona! Sim, são muitos encantos ofertados por apenas um país. Além dos seus atrativos turísticos nas cidades mais famosas, a Itália oferta inúmeras vilas charmosas para se apaixonar. E claro, sua culinária incrível te faz querer voltar sempre!</p> <p class="preco"> R$ 2.000,00 <input type="button" value="Ver avaliações"></p></div></li>
+                <li class="pais"><div class="imagem"><img src="assets/Imgs/Japão.jpg" alt=""></div><div class="conteudoPais"><h3 class="elements">Japão</h3> <p class="sobrepais">Suas tradições milenares, cultura e inovações encantam turistas do mundo todo e, não à toa, o Japão ganhou o primeiro lugar do prêmio. A variedade de opções para os turistas torna o país ainda mais atrativo, como seus restaurantes, templos, cerejeiras e rotas com trens de alta velocidade. Descobrir o Japão é um convite para se apaixonar entre o novo e o antigo em um só lugar.</p> <p class="preco"> R$ 5.280,00 <input type="button" value="Ver avaliações"></p></div></li>
+            </ul>
+    </section>
+    <footer>
+                 
+        
+        
+        <div class="redesociais">
+            <svg class="insta"
+  width="48"
+  height="48"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
+    fill="currentColor"
+  />
+  <path
+    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+    fill="currentColor"
+  />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+    fill="currentColor"
+  />
+</svg>
+<svg class="face"
+  width="48"
+  height="48"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
+    fill="currentColor"
+  />
+</svg>
+<svg class="twitter"
+  width="48"
+  height="48"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z"
+    fill="currentColor"
+  />
+</svg>
+
+        </div>
+        <div id="Desenvolvedor"><h1>Desenvolvido por: Otávio Amaral</h1></div>
+    </footer>
+    
+</body>
+</html>
